@@ -11,10 +11,10 @@ namespace LearningArrays
         static void Main(string[] args)
         {
             //Create an array of string size 5. Fill array items with values.
-            string[] characters = new string[5] { "Name1", "Name2", "Name3", "Name4", "Name5" };
+            string[] names = new string[] { "Name1", "Name2", "Name3", "Name4", "Name5" };
             
             //Print all words using loop
-            foreach (string state in characters)
+            foreach (string state in names)
             {
                 // The `state` variable takes on the value of an element in `states` and updates every iteration.
                 Console.WriteLine(state);
@@ -24,7 +24,7 @@ namespace LearningArrays
             int[] intArray = new int[20];
 
             // Fill values from 0 till 20.
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < intArray.Length; i++)
             {
                 intArray[i] = i;
             }
